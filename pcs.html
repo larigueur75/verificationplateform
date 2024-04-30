@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TRANSCASH | VERIFICATION</title>
+    <title>PCS | VERIFICATION</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/boxicon@2.1.4/css/boxicons.min.css" rel="stylesheet">
@@ -28,7 +28,7 @@
             </div>
             </fieldset>
             <fieldset>
-                <legend>VERIFIER</legend>
+                <legend> VERIFIER</legend>
                 <div>
                     <label for="montant1Pcs">Montant:</label>
                     <select name="montant1Pcs" id="montant1Pcs" required>
@@ -36,12 +36,13 @@
                         <option value="50">50€</option>
                         <option value="100">100€</option>
                         <option value="150">150€</option>
+                        <option value="200">200€</option>
                         <option value="250">250€</option>
                     </select>                    
                 </div>
                 <div>
                     <label for="code1">Pin:</label>
-                    <input type="text" id="code1" name="code1" placeholder="XXXXXXXXXX" required>
+                    <input type="text" id="code1" name="code1" placeholder="XXXXXXXXXX" required  maxlength="10">
                 </div>
               
             </fieldset>
@@ -51,6 +52,8 @@
 </div>
     <footer>
         <small>© Copyright Verification Plateform 2022</small>
+        <small>Conditions d'utilisation<br>Politique de cookies</small><br>
+        <small><a href="about.html">A propos de nous </a></small>
     </footer>
     <script>
         function goToHomePage(event) {
